@@ -20,35 +20,80 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+
+<!-- CONTENITORE PADRE -->
+
     <div class="big-box">
-      <header></header>
-      <main>
+
+<!-- HEADER -->
+      <header class="p-2">
+        <div class="p-2   w-100 h-100 d-flex">
+             <div class="  h-100 w-100 d-flex">
+                <img src="./assets/img/mobile-logo.png" alt="" class="d-lg-none">
+                <img src="./assets/img/logo.svg" alt="" class="d-none d-lg-block d-flex h-50  align-items-center ">  
+                <div class="w-100 d-flex">
+                  <input type="text" id="inputPassword5" class="form-control"  aria-describedby="passwordHelpBlock" placeholder="Prova a cercare : Lezioni di Laravel">
+                  <div id="passwordHelpBlock" class="form-text"></div>
+                  <div class="d-flex align-items-center m-2">
+                    <i class="fa-solid fa-bars m-2 d-none d-lg-block"></i>
+                    <i class="fa-solid fa-circle-question m-2 d-none d-lg-block"></i>
+                    <i class="fa-solid fa-ellipsis-vertical m-2 d-none d-lg-block"></i>
+                    <i class="fa-solid fa-bell m-2 text-warning"></i>
+                  </div>
+                </div>
+        
+            </div>
+            
+        </div>
+
+      </header>
+
+<!-- MAIN, CONTENITORE CONTENUTO CENTRALE PIU SIDEBAR LATERALE -->
+
+    <main>
+<!-- CONTENITORE CONTENUTO GENERALE -->
         <div class="container-fluid">
           <div class="row">
+<!-- SIDEBAR A SINISTRA -->
             <div class="col-1 col-lg-2 bg-danger">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
               consequatur consequuntur veritatis eveniet placeat autem, ex
               nesciunt! Optio harum maiores vitae! Iure culpa quo commodi ad
               harum illum officiis officia?
             </div>
+<!-- PARTE CENTRALE, CONTENITORE CONTENUTO CENTRALE -->
             <div class="col-11 col-lg-10 bg-success">
                 <div class="row">
+<!-- PARTE "HEADER" BLU SCRITTA BOOLEAN -->
                   <div class="col-12 col-lg-8 bg-info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                     hic minima ea explicabo reiciendis, corrupti dicta fuga
                     beatae deleniti recusandae nobis at. Repellendus doloribus
                     deserunt dignissimos, eum veritatis earum facere!
                   </div>
+<!-- PARTE "HEADER" BLU A DESTRA -->
                   <div class="col-12 col-lg-4 bg-primary">
                     Lorem ipsum dolor sit am
                   </div>
                 </div>
-              </div>
-            </div>
+                <div class="row">
+<!-- CONTENUTO PARTE SINISTRA -->
+                    <div class="col-12 col-lg-8 bg-light">
+                        <div>lorem</div>
+                        <div>lorem</div>
+                    </div>
+<!-- CONTENUTO PARTE DESTRA -->
+                    <div class="col-12 col-lg-4 bg-secondary">
+                        <div>lorem</div>
+                        <div>lorem</div>
+                    </div> 
+                </div>
           </div>
+
+ 
         </div>
-      </main>
-    </div>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
