@@ -1,1 +1,14 @@
+.big-box {
+  height: 100vh;
+  background-color: grey;
+}
 
+header {
+  height: 100px;
+  background-color: brown;
+}
+
+main {
+  height: calc(100% - 100px);
+  background-color: lightskyblue;
+}
