@@ -53,23 +53,29 @@
     <main>
 <!-- CONTENITORE CONTENUTO GENERALE -->
         <div class="container-fluid">
-          <div class="row">
+          <div class="row ">
 <!-- SIDEBAR A SINISTRA -->
-            <div class="col-1 col-lg-2 bg-danger">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
-              consequatur consequuntur veritatis eveniet placeat autem, ex
-              nesciunt! Optio harum maiores vitae! Iure culpa quo commodi ad
-              harum illum officiis officia?
-            </div>
+            
+              <div class="col-1 col-lg-2 bg-primary text-white sidebar d-flex flex-column  text-center ">
+                <i class="fa-solid fa-house py-2 fs-5  "></i><span class=" flex-column d-none d-lg-block">Home</span>
+                <i class="fa-solid fa-chart-simple py-2 fs-5  "></i><span class=" d-none d-lg-block">Stats</span>
+                <i class="fa-solid fa-signal py-2 fs-5  "></i><span class=" d-none d-lg-block">Signals</span>
+              </div>
+
 <!-- PARTE CENTRALE, CONTENITORE CONTENUTO CENTRALE -->
             <div class="col-11 col-lg-10 bg-success">
                 <div class="row">
 <!-- PARTE "HEADER" BLU SCRITTA BOOLEAN -->
                   <div class="col-12 col-lg-8 bg-info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    hic minima ea explicabo reiciendis, corrupti dicta fuga
-                    beatae deleniti recusandae nobis at. Repellendus doloribus
-                    deserunt dignissimos, eum veritatis earum facere!
+                    Boolean <span class="badge rounded-pill text-bg-primary">Piano Blaze</span>
+                    <div>
+                      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><span class="badge rounded-pill text-bg-primary">3 App</span></li>
+                          <li class="breadcrumb-item active" aria-current="page"><span class="badge rounded-pill text-bg-primary d-lg-none ">+</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2">Boolean mobile app</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2">Boolean web app</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2">Boolean blog app</span></li>
+                        </ol>
+                      </nav>
+                    </div>
                   </div>
 <!-- PARTE "HEADER" BLU A DESTRA -->
                   <div class="col-12 col-lg-4 bg-primary">
