@@ -6,6 +6,9 @@
 header {
   height: 80px;
   background-color: white;
+  position: sticky;
+  width: 100%;
+  margin-top: 0;
 }
 
 main {
@@ -32,6 +35,11 @@ main {
   opacity: 0.5;
 }
 
+.stats {
+  height: calc(100vh - 80px);
+}
+
 .sidebar {
   background-image: url("../img/sidebar-bg.png");
+  height: calc(100vh - 80px);
 }
