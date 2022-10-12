@@ -27,18 +27,26 @@
 
 <!-- HEADER -->
       <header class="p-2">
-        <div class="p-2   w-100 h-100 d-flex">
-             <div class="  h-100 w-100 d-flex">
+        <div class="p-2 w-100 h-100 ">
+             <div class=" justify-content-between h-100 w-100 d-flex">
                 <img src="./assets/img/mobile-logo.png" alt="" class="d-lg-none">
                 <img src="./assets/img/logo.svg" alt="" class="d-none d-lg-block d-flex h-50  align-items-center ">  
-                <div class="w-100 d-flex">
+                <div class="w-100 d-flex justify-content-between">
                   <input type="text" id="inputPassword5" class="form-control"  aria-describedby="passwordHelpBlock" placeholder="Prova a cercare : Lezioni di Laravel">
                   <div id="passwordHelpBlock" class="form-text"></div>
                   <div class="d-flex align-items-center m-2">
                     <i class="fa-solid fa-bars m-2 d-none d-lg-block"></i>
                     <i class="fa-solid fa-circle-question m-2 d-none d-lg-block"></i>
                     <i class="fa-solid fa-ellipsis-vertical m-2 d-none d-lg-block"></i>
-                    <i class="fa-solid fa-bell m-2 text-warning"></i>
+                    
+                      <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell m-2 text-warning"></i>
+                      </button>
+                      <ul class="dropdown-menu ">
+                        <li class="ms-3">Profilo</li>
+                        <li class="ms-3">Fatturazione</li>
+                        <li class="ms-3">Logout</li>
+                      </ul>
                   </div>
                 </div>
         
@@ -70,7 +78,7 @@
                     <div class="mt-4">
                       <h3 class="d-inline text-white ">Boolean</h3> <span class="badge rounded-pill text-bg-dark bg-opacity-25 ">Piano Blaze</span>
                       <div class="text-white">
-                        <nav  style="--bs-breadcrumb-divider: '>>';"  aria-label="breadcrumb">
+                        <nav  style="--bs-breadcrumb-divider: '>>';"  aria-label="breadcrumb" class="mt-2">
                           <ol class="breadcrumb">
                             <li class="breadcrumb-item"><span class="badge rounded-pill text-bg-primary text-bg-dark bg-opacity-25">3 App</span></li>
                             <li class="breadcrumb-item active" aria-current="page"><span class="badge rounded-pill text-bg-primary d-lg-none text-bg-dark bg-opacity-25 ">+</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2 text-bg-dark bg-opacity-25">Boolean mobile app</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2 text-bg-dark bg-opacity-25">Boolean web app</span><span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block me-2 text-bg-dark bg-opacity-25">Boolean blog app</span></li>
