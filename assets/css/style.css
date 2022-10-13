@@ -61,3 +61,27 @@ main {
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
+
+.img-list {
+  width: 30px;
+}
+
+.offcanvas.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 100%;
+  border-left: var(--bs-offcanvas-border-width) solid
+    var(--bs-offcanvas-border-color);
+  transform: translateX(100%);
+}
+
+@media screen and (min-width: 992px) {
+  .offcanvas.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 70%;
+    border-left: var(--bs-offcanvas-border-width) solid
+      var(--bs-offcanvas-border-color);
+    transform: translateX(100%);
+  }
+}
