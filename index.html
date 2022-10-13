@@ -45,18 +45,18 @@
                     </form>
                   </nav> 
                    <div id="passwordHelpBlock" class="form-text"></div>
-                  <div class="d-flex align-items-center m-2">
+                  <div class="d-flex align-items-center m-2 " role="button">
                     <i class="fa-solid fa-bars m-2 d-none d-lg-block"></i>
                     <i class="fa-solid fa-circle-question m-2 d-none d-lg-block"></i>
                     <i class="fa-solid fa-ellipsis-vertical m-2 d-none d-lg-block"></i>  
-
+                    
                       <button type="button" class="btn btn-outline-light  " data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell m-2 text-warning"></i>
                       </button>
-                      <ul class="dropdown-menu ">
-                        <li class="ms-3">Profilo</li>
-                        <li class="ms-3">Fatturazione</li>
-                        <li class="ms-3">Logout</li>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
                       </ul>
                   </div>
                 </div>
@@ -75,19 +75,19 @@
           <div class="row ">
 <!-- SIDEBAR A SINISTRA -->
             
-              <div class="col-1 col-lg-1 bg-black text-white sidebar d-flex flex-column justify-content-between text-center justify-content-center p-2">
+              <div class="col-1 col-lg-1  text-white sidebar d-flex flex-column justify-content-between text-center justify-content-center p-2">
                 <div>
-                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="d-flex justify-content-center align-items-center btn btn-dark" role="button">
                     <i class="fa-solid fa-house py-2 fs-5  "></i><span class="  d-none d-lg-block ms-2 ">Home</span>
                   </div>
-                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="d-flex justify-content-center align-items-center btn btn-dark" role="button">
                     <i class="fa-solid fa-chart-simple py-2 fs-5  "></i><span class=" d-none d-lg-block ms-2">Stats</span>
                   </div>
-                  <div class="d-flex justify-content-center align-items-center">
+                  <div class="d-flex justify-content-center align-items-center btn btn-dark" role="button">
                     <i class="fa-solid fa-signal py-2 fs-5  "></i><span class=" d-none d-lg-block ms-2">Signals</span>
                   </div>
                 </div>
-                <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center btn btn-dark" role="button">
                   <i class="fa-solid fa-gear py-2 fs-5  "></i><span class=" d-none d-lg-block ms-2">Admin</span>
                 </div>
                 
@@ -127,20 +127,16 @@
                               Prossime classi
 
 <!-- OFFCANVAS -->
-                              <button class="btn btn-outline-dark h-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                              <button class="btn btn-outline-primary h-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                   <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                   </div>
                                   <div class="offcanvas-body">
-                                    <form class="row g-3">
+                                    <form class="row g-3 fs-5">
                                       <div class="col-md-6">
-                                        <!-- <div class="input-group mb-3">
-                                          <label for="inputPassword4" class="form-label">Email</label>
-                                          <div class="input-group-text" id="basic-addon1">@</div>
-                                          <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-                                        </div> -->
+              
                                         <div class="col-md-6 w-100">
                                         <label for="inputPassword4" class="form-label ">Email</label>
                                         <input type="password" class="form-control w-100 ms-0" id="inputPassword4">
@@ -154,10 +150,7 @@
                                         <label for="inputAddress" class="form-label">Indirizzo</label>
                                         <input type="text" class="form-control w-100 ms-0" id="inputAddress" >
                                       </div>
-                                      <!-- <div class="col-12">
-                                        <label for="inputAddress2" class="form-label">Address 2</label>
-                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                      </div> -->
+            
                                       <div class="col-md-6">
                                         <label for="inputCity" class="form-label">City</label>
                                         <input type="text" class="form-control w-100 ms-0" id="inputCity">
@@ -179,6 +172,7 @@
                                         <input type="text" class="form-control w-100 ms-0" id="inputZip">
                                       </div>
                                       <div class="input-group mb-3">
+                                        Foto
                                         <input type="file" class="form-control w-100 ms-0" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
                                       </div>
                                       <div class="col-12">
@@ -190,8 +184,8 @@
                                         </div>
                                       </div>
                                       <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Sign in</button>
-                                        <button type="submit" class="btn btn-warning">Sign in</button>
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="submit" class="btn btn-warning">Svuota</button>
                                       </div>
                                     </form>
                                   </div>
@@ -310,7 +304,7 @@
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  <p>Clicca sul + in alto a destra della tabella "Prossime classi"</p>
                                 </div>
                               </div>
                             </div>
@@ -322,7 +316,7 @@
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  <p>Clicca sull'icona della campanella.</p>
                                 </div>
                               </div>
                             </div>
@@ -334,7 +328,7 @@
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  <p>Di solito è inusuale usare Dashboard del genere da mobile, ma i nostri sviluppatori hanno fatto di tutto per permettere un'esperienza utente accettabile anche da dispositivi a schermi ridotti</p>
                                 </div>
                               </div>
                             </div>

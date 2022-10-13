@@ -28,6 +28,7 @@ main {
 .sidebar {
   background-image: url("../img/sidebar-bg.png");
   height: calc(100vh - 80px);
+  background-color: rgba(5, 30, 52, 1);
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
