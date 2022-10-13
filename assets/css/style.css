@@ -1,11 +1,11 @@
 .big-box {
   height: 100vh;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 header {
   height: 80px;
-  background-color: white;
+  /* background-color: white; */
   position: sticky;
   width: 100%;
   margin-top: 0;
@@ -18,7 +18,7 @@ header {
 
 main {
   height: calc(100% - 100px);
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
 }
 
 .stats {
