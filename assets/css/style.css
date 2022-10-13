@@ -38,6 +38,10 @@ main {
   content: var(--bs-breadcrumb-divider, "/");
 }
 
+.hover:hover {
+  opacity: 70%;
+}
+
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
