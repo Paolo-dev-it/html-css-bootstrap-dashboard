@@ -38,8 +38,12 @@ main {
   content: var(--bs-breadcrumb-divider, "/");
 }
 
+.hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .hover:hover {
-  opacity: 70%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-toggler {
