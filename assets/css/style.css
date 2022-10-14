@@ -38,12 +38,20 @@ main {
   content: var(--bs-breadcrumb-divider, "/");
 }
 
+/* hover pils header blu */
+
 .hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .hover:hover {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* hover menu sidebar */
+
+.hover-1:hover {
+  background-color: gray;
 }
 
 .navbar-toggler {
